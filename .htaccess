@@ -1,0 +1,6 @@
+# Redirect to www
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^medicaldoctor\.mx [NC]
+    RewriteRule ^(.*)$ https://www.medicaldoctor.mx/$1 [L,R=301]
+</IfModule>
