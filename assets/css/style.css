@@ -190,7 +190,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
 }
 
 /**
@@ -1730,6 +1730,7 @@ section {
   padding-top: 5px;
   font-size: 13px;
   color: #444444;
+  text-align: center;
 }
 
 #footer .social-links a {
